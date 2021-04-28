@@ -1,4 +1,4 @@
-/// 4-цфр числа със сбор от цифрите = 2-цфр
+/// 4-Г¶ГґГ° Г·ГЁГ±Г«Г  Г±ГєГ± Г±ГЎГ®Г° Г®ГІ Г¶ГЁГґГ°ГЁГІГҐ = 2-Г¶ГґГ°
 // 97 str/12 zad
 
 #include <iostream>
@@ -16,7 +16,7 @@ int main () {
     int a;
     cout << "vyvedete 4islo za test" << endl;
     cin >> a;
-    cout << "sumata ot cifirte na a e " << SumCfr(a) << "ako ne - az sym profesionalen idiot (:" << endl;
+    cout << "sumata ot cifirte na a e " << SumCfr(a) << endl;
     for (int i = 1000; i < 10000; i++) {
         if (SumCfr(i) >= 10 && SumCfr(i) <= 20) {
             cout << i << endl;
